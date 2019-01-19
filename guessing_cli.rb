@@ -10,7 +10,7 @@ def run_guessing_game
     puts "You guessed the correct number!"
   elsif user_guess != comp_guess
     puts "The computer guessed " + comp_guess.to_s + "."
-  elsif user_guess = "exit"
+  elsif user_guess == "exit"
     puts "Goodbye!"
     break
   end
