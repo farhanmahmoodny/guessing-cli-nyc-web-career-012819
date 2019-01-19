@@ -11,7 +11,7 @@ while comp = rand(1..6)
     puts "Goodbye!"
     break
   end
-
+end
 
 end
 
