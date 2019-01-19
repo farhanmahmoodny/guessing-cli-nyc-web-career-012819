@@ -7,11 +7,11 @@ def run_guessing_game
   puts "Guess a number between 1 and 6."
   comp_guess = rand(1..6)
   guess = gets.chomp
-  if user_guess == comp_guess
+  if guess == comp_guess
     puts "You guessed the correct number!"
-  elsif user_guess != comp_guess
+  elsif guess != comp_guess
     puts "The computer guessed " + comp_guess.to_s + "."
-  elsif user_guess == "exit"
+  elsif guess == "exit"
     puts "Goodbye!"
     break
   end
